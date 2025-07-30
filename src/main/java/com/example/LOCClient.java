@@ -2,7 +2,7 @@ package com.example;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class MOCClient implements ClientModInitializer {
+public class LOCClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {

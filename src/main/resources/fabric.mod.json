@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "master-of-cubes",
+	"id": "lord-of-cubes",
 	"version": "${version}",
-	"name": "Master OF Cubes",
-	"description": "MOC description",
+	"name": "Lord OF Cubes",
+	"description": "LOC description",
 	"authors": [
 		"Me!"
 	],
@@ -12,23 +12,23 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/master-of-cubes/icon.png",
+	"icon": "assets/lord-of-cubes/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.example.MOC"
+			"com.example.LOC"
 		],
 		"client": [
-			"com.example.MOCClient"
+			"com.example.LOCClient"
 		],
 		"fabric-datagen": [
-			"com.example.MOCDataGeneration"
+			"com.example.LOCDataGeneration"
 		]
 	},
 	"mixins": [
-		"master-of-cubes.mixins.json",
+		"lord-of-cubes.mixins.json",
 		{
-			"config": "master-of-cubes.client.mixins.json",
+			"config": "lord-of-cubes.client.mixins.json",
 			"environment": "client"
 		}
 	],
